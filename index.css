@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 16px;
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+header {
+  width: 343px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.maskconteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+.mask {
+  width: 40px;
+  height: 3px;
+  background: rgba(0, 0, 26, 1);
+}
+
+.futurewebsite {
+  width: 343px;
+  height: 636px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.futurewebsite h1 {
+  font-family: "Inter";
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 40px;
+  color: rgba(0, 0, 26, 1);
+}
+
+.futurewebsite p {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(94, 96, 122, 1);
+}
+
+.readmore {
+  width: 185px;
+  height: 48px;
+  background: rgba(241, 93, 81, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.readmore p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4.375px;
+  color: rgba(255, 253, 250, 1);
+}
+
+.onlybackcolor {
+  width: 343px;
+  height: 489px;
+  background: rgba(0, 0, 26, 1);
+}
+
+.New {
+  padding: 0px 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.New h1 {
+  padding: 32px 0px;
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(233, 170, 82, 1);
+}
+
+.paragraphconteiner {
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
+}
+
+.whitepargh {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(255, 253, 250, 1);
+}
+
+.grewpargh {
+  font-family: "Inter";
+  font-size: 15px;
+  line-height: 26px;
+  color: rgba(197, 198, 206, 1);
+}
+
+.line {
+  width: 302px;
+  height: 1px;
+  background: rgba(94, 96, 122, 1);
+}
+
+.lastconteiner img {
+  width: 195px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0px;
+}
+
+.similar {
+  display: flex;
+  justify-content: row;
+}
+
+.numbers {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(197, 198, 206, 1);
+}
+
+.similarh1 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 800;
+  color: rgba(0, 0, 26, 1);
+}
+
+.similarparagparh {
+  width: 219px;
+  font-family: "Inter";
+  color: rgba(94, 96, 122, 1);
+}
+
+.numh1pargh {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 32px 0px 0px 24px;
+}
